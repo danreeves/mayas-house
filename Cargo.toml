@@ -1,0 +1,10 @@
+[package]
+name = "mayas-house"
+version = "0.1.0"
+authors = ["Dan Reeves <hey@danreev.es>"]
+edition = "2018"
+
+[dependencies]
+ws = "0.7.9"
+rocket = "0.4.0"
+rocket_contrib = "0.4.0"

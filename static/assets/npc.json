@@ -1,0 +1,85 @@
+{
+  "dialogue": {
+    "n0": "*Cough, cough...*",
+    "d0": "*Cough... Cough...* Ah... My head... Can somebody help me...?",
+    "d1": "Thanks for earlier. I feel much better."
+  },
+  "name": "Maya",
+  "isShop": false,
+  "framebooks": {
+    "stand": 1
+  },
+  "id": 1012101,
+  "isComponentNPC": false,
+  "foundAt": [
+    {
+      "name": "Entrance - Mushroom Town Training Camp",
+      "streetName": "Maple Road",
+      "id": 0
+    }
+  ],
+  "relatedQuests": [
+    2040,
+    2041,
+    2042,
+    2043,
+    2002,
+    4008,
+    8034,
+    8035,
+    8036,
+    8037,
+    8040,
+    22543
+  ],
+  "relatedQuestsInfo": [
+    {
+      "id": 2040,
+      "name": "Maya's First Collection"
+    },
+    {
+      "id": 2041,
+      "name": "Maya's Second Collection"
+    },
+    {
+      "id": 2042,
+      "name": "Maya's Third Collection"
+    },
+    {
+      "id": 2043,
+      "name": "Maya's Last Collection"
+    },
+    {
+      "id": 2002,
+      "name": "Maya of Henesys"
+    },
+    {
+      "id": 4008,
+      "name": "보관함의 열쇠"
+    },
+    {
+      "id": 8034,
+      "name": "Maya's Concerns 1"
+    },
+    {
+      "id": 8035,
+      "name": "Maya's Concerns 2"
+    },
+    {
+      "id": 8036,
+      "name": "Maya's Concerns 3"
+    },
+    {
+      "id": 8037,
+      "name": "Lionel's Necklace 1"
+    },
+    {
+      "id": 8040,
+      "name": "Lionel's Journey"
+    },
+    {
+      "id": 22543,
+      "name": "Where's the Book? 3"
+    }
+  ]
+}

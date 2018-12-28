@@ -1,0 +1,447 @@
+{
+  "backgroundMusic": "Bgm00/FloralLife",
+  "isReturnMap": false,
+  "returnMap": 100000000,
+  "portals": [
+    {
+      "portalName": "sp",
+      "toName": "",
+      "type": 0,
+      "toMap": 999999999,
+      "x": 364,
+      "y": 204,
+      "isStarForcePortal": false,
+      "index": 0,
+      "unknownExit": true,
+      "bounds": {
+        "x": 364.0,
+        "y": 204.0,
+        "width": 1.0,
+        "height": 1.0,
+        "location": {
+          "x": 364.0,
+          "y": 204.0,
+          "isEmpty": false
+        },
+        "size": {
+          "width": 1.0,
+          "height": 1.0,
+          "isEmpty": false
+        },
+        "isEmpty": false,
+        "top": 204.0,
+        "right": 365.0,
+        "bottom": 205.0,
+        "left": 364.0
+      }
+    },
+    {
+      "portalName": "out02",
+      "toName": "in02",
+      "type": 2,
+      "toMap": 100000000,
+      "x": 202,
+      "y": 242,
+      "toMapName": {
+        "name": "Henesys",
+        "streetName": "Henesys",
+        "id": 100000000
+      },
+      "isStarForcePortal": false,
+      "linkToMap": "/map/100000000",
+      "index": 0,
+      "unknownExit": false,
+      "bounds": {
+        "x": 202.0,
+        "y": 242.0,
+        "width": 1.0,
+        "height": 1.0,
+        "location": {
+          "x": 202.0,
+          "y": 242.0,
+          "isEmpty": false
+        },
+        "size": {
+          "width": 1.0,
+          "height": 1.0,
+          "isEmpty": false
+        },
+        "isEmpty": false,
+        "top": 242.0,
+        "right": 203.0,
+        "bottom": 243.0,
+        "left": 202.0
+      }
+    }
+  ],
+  "npcs": [
+    {
+      "x": -17,
+      "y": 39,
+      "walkAreaX1": -67,
+      "walkAreaX2": 33,
+      "id": 1012101,
+      "footholdId": 20,
+      "foothold": {
+        "id": 20,
+        "next": 21,
+        "prev": 19,
+        "piece": 13,
+        "x1": -173,
+        "x2": 107,
+        "y1": 39,
+        "y2": 39,
+        "layerId": 1,
+        "groupId": 0
+      },
+      "hidden": false,
+      "type": 0,
+      "name": "Maya",
+      "link": "/npc/1012101",
+      "index": 0,
+      "position": {
+        "x": -17.0,
+        "y": 39.0,
+        "z": 1.0
+      },
+      "bounds": {
+        "x": -40.0,
+        "y": -38.0,
+        "width": 46.0,
+        "height": 77.0,
+        "location": {
+          "x": -40.0,
+          "y": -38.0,
+          "isEmpty": false
+        },
+        "size": {
+          "width": 46.0,
+          "height": 77.0,
+          "isEmpty": false
+        },
+        "isEmpty": false,
+        "top": -38.0,
+        "right": 6.0,
+        "bottom": 39.0,
+        "left": -40.0
+      },
+      "flip": false
+    }
+  ],
+  "mobs": [],
+  "mobRate": 1.0,
+  "isTown": true,
+  "isSwim": false,
+  "mapMark": "Henesys",
+  "miniMap": {
+    "centerX": 527,
+    "centerY": 415,
+    "height": 1025,
+    "width": 1231,
+    "magnification": 4,
+    "canvas": "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"
+  },
+  "footholds": {
+    "1": {
+      "id": 1,
+      "next": 2,
+      "prev": 5,
+      "piece": -1,
+      "x1": -360,
+      "x2": -270,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "2": {
+      "id": 2,
+      "next": 4,
+      "prev": 1,
+      "piece": -1,
+      "x1": -270,
+      "x2": -180,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "3": {
+      "id": 3,
+      "next": 11,
+      "prev": 4,
+      "piece": -1,
+      "x1": -90,
+      "x2": 0,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "4": {
+      "id": 4,
+      "next": 3,
+      "prev": 2,
+      "piece": -1,
+      "x1": -180,
+      "x2": -90,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "5": {
+      "id": 5,
+      "next": 1,
+      "prev": 0,
+      "piece": -1,
+      "x1": -450,
+      "x2": -360,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "6": {
+      "id": 6,
+      "next": 7,
+      "prev": 8,
+      "piece": -1,
+      "x1": 450,
+      "x2": 540,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "7": {
+      "id": 7,
+      "next": 0,
+      "prev": 6,
+      "piece": -1,
+      "x1": 540,
+      "x2": 630,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "8": {
+      "id": 8,
+      "next": 6,
+      "prev": 9,
+      "piece": -1,
+      "x1": 360,
+      "x2": 450,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "9": {
+      "id": 9,
+      "next": 8,
+      "prev": 10,
+      "piece": -1,
+      "x1": 270,
+      "x2": 360,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "10": {
+      "id": 10,
+      "next": 9,
+      "prev": 12,
+      "piece": -1,
+      "x1": 180,
+      "x2": 270,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "11": {
+      "id": 11,
+      "next": 12,
+      "prev": 3,
+      "piece": -1,
+      "x1": 0,
+      "x2": 90,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "12": {
+      "id": 12,
+      "next": 10,
+      "prev": 11,
+      "piece": -1,
+      "x1": 90,
+      "x2": 180,
+      "y1": 274,
+      "y2": 274,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "13": {
+      "id": 13,
+      "next": 14,
+      "prev": 0,
+      "piece": 0,
+      "x1": 162,
+      "x2": 97,
+      "y1": 127,
+      "y2": 50,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "14": {
+      "id": 14,
+      "next": 15,
+      "prev": 13,
+      "piece": 0,
+      "x1": 97,
+      "x2": -151,
+      "y1": 50,
+      "y2": 50,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "15": {
+      "id": 15,
+      "next": 16,
+      "prev": 14,
+      "piece": 0,
+      "x1": -151,
+      "x2": -151,
+      "y1": 50,
+      "y2": 245,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "16": {
+      "id": 16,
+      "next": 17,
+      "prev": 15,
+      "piece": 0,
+      "x1": -151,
+      "x2": 258,
+      "y1": 245,
+      "y2": 245,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "17": {
+      "id": 17,
+      "next": 18,
+      "prev": 16,
+      "piece": 0,
+      "x1": 258,
+      "x2": 258,
+      "y1": 245,
+      "y2": 260,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "18": {
+      "id": 18,
+      "next": 0,
+      "prev": 17,
+      "piece": 0,
+      "x1": 258,
+      "x2": -152,
+      "y1": 260,
+      "y2": 260,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "19": {
+      "id": 19,
+      "next": 20,
+      "prev": 22,
+      "piece": 13,
+      "x1": -173,
+      "x2": -173,
+      "y1": -125,
+      "y2": 39,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "20": {
+      "id": 20,
+      "next": 21,
+      "prev": 19,
+      "piece": 13,
+      "x1": -173,
+      "x2": 107,
+      "y1": 39,
+      "y2": 39,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "21": {
+      "id": 21,
+      "next": 22,
+      "prev": 20,
+      "piece": 13,
+      "x1": 107,
+      "x2": 107,
+      "y1": 39,
+      "y2": -125,
+      "layerId": 1,
+      "groupId": 0
+    },
+    "22": {
+      "id": 22,
+      "next": 19,
+      "prev": 21,
+      "piece": 13,
+      "x1": 107,
+      "x2": -173,
+      "y1": -125,
+      "y2": -125,
+      "layerId": 1,
+      "groupId": 0
+    }
+  },
+  "vrBounds": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 0.0,
+    "height": 0.0,
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "isEmpty": true
+    },
+    "size": {
+      "width": 0.0,
+      "height": 0.0,
+      "isEmpty": true
+    },
+    "isEmpty": true,
+    "top": 0.0,
+    "right": 0.0,
+    "bottom": 0.0,
+    "left": 0.0
+  },
+  "returnMapName": {
+    "name": "Henesys",
+    "streetName": "Henesys",
+    "id": 100000000
+  },
+  "ladderRopes": [
+    {
+      "x": 18,
+      "y1": 41,
+      "y2": 243,
+      "isLadder": true
+    }
+  ],
+  "name": "Maya's House",
+  "streetName": "Henesys",
+  "id": 100000001
+}

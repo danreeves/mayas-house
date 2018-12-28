@@ -1,0 +1,26 @@
+#!/bin/bash
+API_URL=https://maplestory.io/api/GMS/93
+MAP_URL=$API_URL/map/100000001
+BG_IMG_URL=$MAP_URL/render
+BG_MUSIC_URL=$MAP_URL/bgm
+
+function download () {
+  if [ ! -f $2 ]; then
+    echo "Downloading $1"
+    curl -L $3 -o $2 --progress-bar
+  else
+    echo "$1 found. Skipping..."
+  fi
+}
+
+echo "Downloading assets..."
+
+download 'map data' './static/assets/map.json' $MAP_URL
+download 'background image' './static/assets/map.png' $BG_IMG_URL
+download 'background music' './static/assets/map.mp3' $BG_MUSIC_URL
+
+NPC_URL=$API_URL$(cat ./static/assets/map.json | jq -r .npcs[0].link)
+NPC_IMG_URL=$NPC_URL/icon
+
+download 'npc data' './static/assets/npc.json' $NPC_URL
+download 'npc image' './static/assets/npc.png' $NPC_IMG_URL
