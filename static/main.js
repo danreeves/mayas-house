@@ -3,7 +3,11 @@ import {Chat} from './mod/chat.js'
 import {Game} from './mod/game.js'
 import {Player} from './mod/player.js'
 
-let username = window.prompt('Pick a username:')
+let username
+while (!username) {
+  username = window.prompt('Pick a username:')
+}
+
 let player = new Player({ username, current: true })
 
 let websocket = new WS(`ws://${document.location.hostname}:3000`)

@@ -21,6 +21,14 @@ async function getImageSize(blob) {
   return promise
 }
 
+async function playMusic(url) {
+  let el = document.createElement('audio')
+  el.src = url
+  el.autoplay = true
+  document.documentElement.appendChild(el)
+  return el
+}
+
 export class Game {
   constructor ({ canvas }) {
     this.canvas = document.querySelector(canvas)
@@ -35,6 +43,7 @@ export class Game {
 
   async loadAssets () {
     this.bg = await loadImage('assets/map.png')
+    this.bg_music = await playMusic('assets/map.mp3')
   }
 
   run () {
