@@ -22,6 +22,8 @@ async function getImageSize(blob) {
 }
 
 async function playMusic(url) {
+  console.log('[Music: OFF]')
+  return
   let el = document.createElement('audio')
   el.src = url
   el.autoplay = true
