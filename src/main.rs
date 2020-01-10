@@ -5,7 +5,10 @@ use ws;
 
 fn main() {
     thread::spawn(move || {
-        ws::listen("127.0.0.1:3000", move |out| move |msg| out.broadcast(msg)).unwrap();
+        ws::listen("wss://127.0.0.1:3000", move |out| {
+            move |msg| out.broadcast(msg)
+        })
+        .unwrap();
     });
     rocket::ignite()
         .mount("/", StaticFiles::from("./static"))

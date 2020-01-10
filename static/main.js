@@ -10,7 +10,7 @@ while (!username) {
 
 let player = new Player({ username, current: true })
 
-let websocket = new WS(`ws://${document.location.hostname}:3000`)
+let websocket = new WS(`wss://${document.location.hostname}:3000`)
 
 let chat = new Chat({
   input: '#chat_input',
